@@ -34,6 +34,7 @@ contract FundMeTest is Test {
         // This will fail ❌ because msg.sender ≠ address(this) in test functions
         // Uncommenting this line would make the test fail:
         // assertEq(fundMe.i_owner(), msg.sender);
+        //Testing
     }
 
     function testPriceFeedVersionAccurate() public {
